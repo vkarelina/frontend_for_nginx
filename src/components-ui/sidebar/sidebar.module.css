@@ -1,0 +1,37 @@
+.wrapperSidebar {
+  min-height: 100vh;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--background-color);
+}
+
+.wrapperSidebar > div {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.wrapperSidebar span {
+  height: 100%;
+  border-radius: 50%;
+  color: var(--accent-color);
+  background-color: var(--avatar-icon-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.wrapperSidebar div.active {
+  background: linear-gradient(
+    to bottom,
+    var(--light-accent-color),
+    var(--accent-color)
+  );
+}

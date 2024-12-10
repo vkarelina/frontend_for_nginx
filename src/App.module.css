@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--white);
+  background-color: var(--deep-space-sparkle);
+
+  /* Цветовые переменные */
+  --dark-jungle-green: #1b1c27;
+  --deep-space-sparkle: #1f202f;
+  --vivid-orange: #ff7f00;
+  --dark-orange: #ba6007;
+  --light-coral: #f0ae99;
+  --white: #ffffffde;
+  --gunmetal: #272839;
+  --green: #03a100;
+  --red: #a70000;
+  --grey: #434343;
+  --transparent-white: #ffffff33;
+
+  /* Применение цветовых переменных */
+  --primary-color: var(--deep-space-sparkle);
+  --background-color: var(--dark-jungle-green);
+  --avatar-icon-color: var(--gunmetal);
+  --accent-color: var(--vivid-orange);
+  --second-accent-color: var(--dark-orange);
+  --light-accent-color: var(--light-coral);
+  --correct-icon-color: var(--green);
+  --wrong-icon-color: var(--red);
+  --default-icon-color: var(--grey);
+  --textarea-color: var(--white);
+}
+
+html[data-theme='dark'] {
+  --background-color: var(--dark-jungle-green);
+  --primary-color: var(--deep-space-sparkle);
+  --text-color: var(--white);
+  --accent-color: var(--vivid-orange);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

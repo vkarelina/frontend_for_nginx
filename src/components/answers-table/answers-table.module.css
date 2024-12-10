@@ -1,0 +1,9 @@
+.prompt {
+  margin: 16px auto;
+}
+
+.table {
+  height: 100%;
+  background-color: var(--primary-color);
+  margin: 32px;
+}
