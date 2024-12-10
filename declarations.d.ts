@@ -7,5 +7,3 @@ declare module '*.svg' {
 
   export = ReactComponent;
 }
-
-declare module '*.css';
