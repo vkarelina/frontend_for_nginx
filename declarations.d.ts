@@ -8,4 +8,4 @@ declare module '*.svg' {
   export = ReactComponent;
 }
 
-declare module '*.module.css';
+declare module '*.css';
